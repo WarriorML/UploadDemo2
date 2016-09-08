@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		022A624F1D757EDC00C8D12A /* 123.dmg in Resources */ = {isa = PBXBuildFile; fileRef = 022A624E1D757EDC00C8D12A /* 123.dmg */; };
 		027F1FDD1D756F58001BC73A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 027F1FDC1D756F58001BC73A /* main.m */; };
 		027F1FE01D756F58001BC73A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 027F1FDF1D756F58001BC73A /* AppDelegate.m */; };
 		027F1FE31D756F58001BC73A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 027F1FE21D756F58001BC73A /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		027F1FEB1D756F58001BC73A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 027F1FE91D756F58001BC73A /* LaunchScreen.storyboard */; };
 		027F1FF61D756F58001BC73A /* UploadDemo2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 027F1FF51D756F58001BC73A /* UploadDemo2Tests.m */; };
 		027F20011D756F58001BC73A /* UploadDemo2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 027F20001D756F58001BC73A /* UploadDemo2UITests.m */; };
+		02DCB4241D757B8500B8CAA4 /* 123.zip in Resources */ = {isa = PBXBuildFile; fileRef = 02DCB4231D757B8500B8CAA4 /* 123.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		022A624E1D757EDC00C8D12A /* 123.dmg */ = {isa = PBXFileReference; lastKnownFileType = file; path = 123.dmg; sourceTree = "<group>"; };
 		027F1FD81D756F58001BC73A /* UploadDemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UploadDemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		027F1FDC1D756F58001BC73A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		027F1FDE1D756F58001BC73A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		027F1FFC1D756F58001BC73A /* UploadDemo2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UploadDemo2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		027F20001D756F58001BC73A /* UploadDemo2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UploadDemo2UITests.m; sourceTree = "<group>"; };
 		027F20021D756F58001BC73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02DCB4231D757B8500B8CAA4 /* 123.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = 123.zip; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		027F1FCF1D756F57001BC73A = {
 			isa = PBXGroup;
 			children = (
+				02DCB4231D757B8500B8CAA4 /* 123.zip */,
 				027F1FDA1D756F58001BC73A /* UploadDemo2 */,
 				027F1FF41D756F58001BC73A /* UploadDemo2Tests */,
 				027F1FFF1D756F58001BC73A /* UploadDemo2UITests */,
@@ -101,6 +106,7 @@
 		027F1FDA1D756F58001BC73A /* UploadDemo2 */ = {
 			isa = PBXGroup;
 			children = (
+				022A624E1D757EDC00C8D12A /* 123.dmg */,
 				027F1FDE1D756F58001BC73A /* AppDelegate.h */,
 				027F1FDF1D756F58001BC73A /* AppDelegate.m */,
 				027F1FE11D756F58001BC73A /* ViewController.h */,
@@ -245,7 +251,9 @@
 			files = (
 				027F1FEB1D756F58001BC73A /* LaunchScreen.storyboard in Resources */,
 				027F1FE81D756F58001BC73A /* Assets.xcassets in Resources */,
+				02DCB4241D757B8500B8CAA4 /* 123.zip in Resources */,
 				027F1FE61D756F58001BC73A /* Main.storyboard in Resources */,
+				022A624F1D757EDC00C8D12A /* 123.dmg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +422,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UploadDemo2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyou100.UploadDemo2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +434,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UploadDemo2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyou100.UploadDemo2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +506,7 @@
 				027F20071D756F58001BC73A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		027F20081D756F58001BC73A /* Build configuration list for PBXNativeTarget "UploadDemo2Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +515,7 @@
 				027F200A1D756F58001BC73A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		027F200B1D756F58001BC73A /* Build configuration list for PBXNativeTarget "UploadDemo2UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +524,7 @@
 				027F200D1D756F58001BC73A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
